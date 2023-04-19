@@ -11,6 +11,8 @@ export class UserComponent implements OnInit {
   address: Address;
   hobbies: string[];
   posts: Posts;
+  email: string;
+
 
   constructor(private dataService: DataService) {
     console.log('Data service connected...');
